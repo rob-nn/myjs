@@ -1,0 +1,11 @@
+{
+  "name": "myjs",
+  "version": "1.0.0",
+  "description": "my js studies",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "roberto",
+  "license": "MIT"
+}
