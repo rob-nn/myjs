@@ -1,5 +1,6 @@
-from node:18-alpine
+FROM node:18-alpine
+RUN npm install -g typescript
 WORKDIR /usr/app
-#COPY package.json .
-#RUN npm installl --quiet
-#COPY . .
+RUN chown -R node /usr/app
+USER node
+CMD ["/bin/sh"]
