@@ -5,4 +5,5 @@ function displayTime() {
 }
 
 displayTime();
+
 setInterval(displayTime, 1000);
